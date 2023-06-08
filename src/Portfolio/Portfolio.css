@@ -1,0 +1,393 @@
+/* This is the CSS of container in which all components of portfolio are stored */
+.portfolio-container {
+  display: flex;
+  flex-direction: column;
+  height: 160vh;
+  width: 100vw;
+}
+
+/* All the CSS related to Portfolio Header */
+.portfolio-header {
+  display: flex;
+  flex-direction: column;
+  height: 15rem;
+  width: 100vw;
+  align-items: center;
+  font-family: 'Times New Roman', Times, serif;
+  margin-bottom: 1rem;
+}
+
+/* All contacts related CSS  */
+.contact-details {
+  display: flex;
+  flex-direction: row;
+}
+
+#name,
+#field {
+  width: 100vw;
+  font-size: 3rem;
+}
+
+#name {
+  margin-top: 2rem;
+  margin-right: 0;
+  text-align: center;
+  font-size: 5rem;
+  color: #126f9a;
+}
+
+#field {
+  background: #126f9a;
+  color: rgb(222, 218, 218);
+  text-align: center;
+}
+
+.contact-details {
+  width: 100vw;
+}
+
+.contact-details a {
+  text-decoration: none;
+}
+
+.contact-item {
+  display: flex;
+  /* margin: 2rem 1rem; */
+  height: 2rem;
+  width: 10rem;
+  align-items: center;
+  justify-content: center;
+}
+
+#contact-number {
+  width: 3rem;
+}
+
+.logo {
+  margin-right: 1rem;
+  width: 2rem;
+}
+
+#call-me-logo {
+  margin-left: 30rem;
+}
+
+#email-logo {
+  margin-left: 15rem;
+}
+
+/* CSS of Portfolio body */
+.portfolio-body {
+  display: flex;
+  height: 200rem;
+  width: 100vw;
+  flex-direction: column;
+}
+
+.portfolio-above {
+  display: flex;
+  width: 100vw;
+  height: 20rem;
+  flex-direction: row;
+}
+
+/* All CSS pertaining to Portfolio Article */
+.portfolio-article {
+  display: flex;
+  flex-direction: column;
+  height: 30rem;
+  width: 70vw;
+  /* justify-content: center; */
+  align-items: center;
+  font-size: 2rem;
+  font-family: 'Times New Roman', Times, serif;
+  border-right: 0.1rem solid #126f9a;
+}
+
+/* All CSS pertaining to Objective */
+
+.career-objective {
+  width: 100%;
+}
+
+.objective-heading {
+  width: 22rem;
+}
+
+.content {
+  margin-top: 1rem;
+  font-size: 1.5rem;
+  font-family: 'Times New Roman', Times, serif;
+  margin: 1rem 4rem;
+  margin-left: 4rem;
+  text-align: justify;
+  justify-content: left;
+}
+
+/* CSS pertaining to Skills */
+
+.skills {
+  width: 70vw;
+  height: 100rem;
+  /* background-color: aqua; */
+  /* margin-bottom: 2rem; */
+}
+
+.skills-heading {
+  width: 9rem;
+}
+
+/* All CSS related to Portfolio Aside Component */
+
+.portfolio-aside {
+  height: 27rem;
+  width: 30vw;
+}
+
+.portfolio-aside-heading {
+  width: 15rem;
+}
+
+.studies {
+  font-family: 'Times New Roman', Times, serif;
+  line-height: 2rem;
+  margin-bottom: 1.4rem;
+}
+
+/* Css pertaining to Portfolio Footer */
+.portfolio-bottom {
+  display: grid;
+  height: 20rem;
+  width: 100vw;
+  justify-content: center;
+  margin-top: 15rem;
+}
+
+.portfolio-footer {
+  display: flex;
+  height: 100%;
+  width: 95vw;
+  border: 2px solid #126f9a;
+  border-radius: 2rem;
+  flex-direction: column;
+  align-items: center;
+}
+.footer-heading {
+  text-align: center;
+  background: white;
+  color: #126f9a;
+  width: 12rem;
+  margin: auto auto;
+}
+
+.profile-link {
+  text-decoration: none;
+  color: #126f9a;
+}
+
+.footer-content {
+  width: 100%;
+}
+
+.profile {
+  line-height: 2rem;
+  color: #126f9a;
+}
+
+/* Media queries for mobile phone width */
+
+@media (max-width: 450px) {
+  .portfolio-container {
+    display: flex;
+    flex-direction: column;
+    height: 1000px;
+    width: 450px;
+  }
+
+  /* All the CSS related to Portfolio Header */
+  .portfolio-header {
+    display: flex;
+    flex-direction: column;
+    height: 10rem;
+    width: 450px;
+    align-items: center;
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 1rem;
+  }
+  /* All contacts related CSS  */
+  .contact-details {
+    display: flex;
+    flex-direction: row;
+  }
+
+  #name,
+  #field {
+    width: 450px;
+    font-size: 2rem;
+  }
+
+  #name {
+    margin-top: 2rem;
+    margin-right: 0;
+    text-align: center;
+    font-size: 3rem;
+    color: #126f9a;
+  }
+
+  #field {
+    background: #126f9a;
+    color: rgb(222, 218, 218);
+    text-align: center;
+  }
+
+  .contact-details {
+    display: flex;
+    flex-direction: row;
+    width: 450px;
+    align-items: center;
+  }
+
+  .contact-details a {
+    text-decoration: none;
+  }
+
+  .contact-item {
+    display: flex;
+    /* margin: 2rem 1rem; */
+    height: 2rem;
+    width: 160px;
+    align-items: left;
+    justify-content: center;
+    font-size: 14px;
+    text-align: center;
+  }
+
+  #call-me-logo {
+    margin-left: 4rem;
+    margin-right: 0rem;
+  }
+
+  #email-logo {
+    margin-left: 2rem;
+    margin-right: 0rem;
+  }
+
+  .logo {
+    margin-left: 1rem;
+    width: 50px;
+  }
+
+  /* CSS of Portfolio body */
+  .portfolio-body {
+    display: flex;
+    height: 1500px;
+    width: 450px;
+    flex-direction: column;
+  }
+
+  .portfolio-above {
+    display: flex;
+    width: 450px;
+    height: 850px;
+    flex-direction: column;
+  }
+
+  /* All CSS pertaining to Portfolio Article */
+  .portfolio-article {
+    display: flex;
+    flex-direction: column;
+    height: 470px;
+    width: 450px;
+    align-items: center;
+    font-size: 2rem;
+    font-family: 'Times New Roman', Times, serif;
+    border-right: 0px;
+  }
+
+  /* All CSS pertaining to Objective */
+
+  .career-objective {
+    width: 100%;
+  }
+
+  .objective-heading {
+    width: 15rem;
+  }
+
+  .content {
+    font-size: 1.2rem;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 1rem 4rem;
+    margin-left: 4rem;
+    text-align: justify;
+    justify-content: left;
+  }
+
+  /* CSS pertaining to Skills */
+
+  .skills {
+    width: 450px;
+    /* height: 400px; */
+  }
+
+  .skills-heading {
+    width: 7rem;
+  }
+
+  /* All CSS related to Portfolio Aside Component */
+
+  .portfolio-aside {
+    height: 400px;
+    width: 450px;
+  }
+
+  .portfolio-aside-heading {
+    width: 11rem;
+  }
+
+  .studies {
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 2rem;
+    margin-bottom: 1.4rem;
+  }
+
+  /* Css pertaining to Portfolio Footer */
+  .portfolio-bottom {
+    display: flex;
+    height: 400px;
+    width: 450px;
+    align-items: center;
+    margin-top: 2rem;
+  }
+
+  .portfolio-footer {
+    display: flex;
+    height: 300px;
+    width: 350px;
+    border: none;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid #126f9a;
+  }
+  .footer-heading {
+    background: white;
+    color: #126f9a;
+    width: 12rem;
+    margin: 0rem 0rem;
+  }
+
+  .profile-link {
+    text-decoration: none;
+    color: #126f9a;
+  }
+
+  .footer-content {
+    width: 100%;
+  }
+
+  .profile {
+    line-height: 2rem;
+    color: #126f9a;
+  }
+}
